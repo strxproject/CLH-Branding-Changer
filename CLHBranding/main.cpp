@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
 
     std::string branding = argv[2];
 
-    std::string validBrandings[] = { "Ultimate", "Professional", "Home Premium", "Home Basic", "Starter" };
+    std::string validBrandings[] = { "Ultimate", "Professional", "Premium", "Basic", "Starter" };
     bool isValid = false;
     for (const auto& valid : validBrandings) {
         if (branding == valid) {
